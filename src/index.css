@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.home-bgm{
+  /* background: linear-gradient(to bottom, #f7f4f4, #373747); */
+  background-image: url("https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1060&t=st=1695468059~exp=1695468659~hmac=9bf229a3b095ee78ef02f06a18430190e68613efbb0b089d93f1e86e285f18a0");
+  background-size: cover;
+  height: 100vh;
+}
+.home-heading{
+  font-weight: bold;
+  font-size: 50px;
+  
+}
+.home-para{
+  font-size: 20px;
+  
+}
+.std-button{
+  height: 60px;
+  width: 150px;
+  background-color: rgb(41, 108, 233);
+  border-radius: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.money-manager-image{
+  border-radius: 100px 5px 5px 100px;
+}
+.about-bgm-main{
+  /* Linear gradient with multiple color stops */
+background: linear-gradient(to right, #2193b0 , #6dd5ed);
+
+}
+.features-bgm-main{
+  /* Linear gradient with multiple color stops */
+background: linear-gradient(to right, #2980b9,#6dd5fa);
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color:  #151719;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 3s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
