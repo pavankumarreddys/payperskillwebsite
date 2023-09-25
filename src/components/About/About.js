@@ -1,15 +1,9 @@
-import React from 'react'
-import 'animate.css';
-
 const About = () => {
   return (
-      <div name='about' className='w-full h-screen about-bgm-main text-white'>
-          <div className='animate__animated  animate__slideInRight p-3 flex flex-col w-full h-full justify-center' >
-              <div className='text-center flex justify-center items-center bg-transparent h-[10rem]'>
-                  {/* <p className='text-black text-5xl font-bold'>
-                      About PayPerSkill
-                  </p> */}
-                  <div className="waviy">
+    <div className='container-fluid about-bgm'>
+        <div className='row animate__animated  animate__slideInRight '>
+            <div className='col-12'>
+                <div className="waviy">
                         <span style={{ "--i": "1" }}>A</span>
                         <span style={{ "--i": "2" }}>b</span>
                         <span style={{ "--i": "3" }}>o</span>
@@ -27,19 +21,16 @@ const About = () => {
                         <span style={{ "--i": "14" }}>i</span>
                         <span style={{ "--i": "15" }}>l</span>
                         <span style={{ "--i": "16" }}>l</span>
-                    </div>
-
-                  
-              </div>
-              
-                  <p className='text-xl mt-20'>PayPerSkill is a groundbreaking platform designed to bridge the gap between individuals seeking skilled workers and those with unique talents looking for work opportunities. Our platform is built on the simple premise that there are people with valuable skills ready to contribute, and there are individuals and businesses in need of their expertise. We facilitate these connections seamlessly, allowing work to be completed efficiently and to everyone's satisfaction.</p>
+                </div>
+            </div>
+            <div className='col-12'>
+            <p className='text-xl md:text-3xl lg:text-xl text-slate-900 mt-10'>In a world driven by innovation and constantly evolving needs, the demand for skilled individuals and the opportunities for those with unique talents have never been greater. However, connecting the two can often be a challenging task. Enter PayPerSkill, a groundbreaking platform designed to bridge the gap between individuals seeking skilled workers and those with unique talents looking for work opportunities. Our platform is built on the simple premise that there are people with valuable skills ready to contribute, and there are individuals and businesses in need of their expertise. We facilitate these connections seamlessly, allowing work to be completed efficiently and to everyone's satisfaction.</p>
               <br/>
-              <p className='text-xl'>
-              PayPerSkill is designed to recognize and harness these talents, offering a platform where skills are not just valued but celebrated. By facilitating connections between skilled individuals and employers or project owners, we aim to match the right skills with the right opportunities, creating a win-win scenario for both parties.
+              <p className='text-xl md:text-3xl lg:text-xl text-slate-900'>
+              PayPerSkill is more than just a platform; it's a catalyst for change in the job market. By focusing on ease of use, affordability, skill matching, and flexibility, we empower both job seekers and employers to thrive in an evolving world. Join us on this journey as we celebrate talent, create opportunities, and redefine the future of work together.
               </p>
-              
-              
-          </div>
+            </div>
+        </div>
     </div>
   )
 }
