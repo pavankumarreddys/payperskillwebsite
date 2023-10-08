@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/https//pavankumarreddys.github.io./payperskillwebsite/static/css/main.3c66f00a.css",
+    "main.js": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/main.bb050c0e.js",
+    "static/js/592.a01c9285.chunk.js": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/592.a01c9285.chunk.js",
+    "static/js/262.61ec3683.chunk.js": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/262.61ec3683.chunk.js",
+    "static/js/529.50cb4b26.chunk.js": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/529.50cb4b26.chunk.js",
+    "static/js/602.5e22e6c4.chunk.js": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/602.5e22e6c4.chunk.js",
+    "static/js/787.87c61a80.chunk.js": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/787.87c61a80.chunk.js",
+    "static/media/pps1.png": "/https//pavankumarreddys.github.io./payperskillwebsite/static/media/pps1.b07ec88e9a0ca112e3c8.png",
+    "static/media/ppnet.avif": "/https//pavankumarreddys.github.io./payperskillwebsite/static/media/ppnet.0a39addfef331eabddf2.avif",
+    "index.html": "/https//pavankumarreddys.github.io./payperskillwebsite/index.html",
+    "main.3c66f00a.css.map": "/https//pavankumarreddys.github.io./payperskillwebsite/static/css/main.3c66f00a.css.map",
+    "main.bb050c0e.js.map": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/main.bb050c0e.js.map",
+    "592.a01c9285.chunk.js.map": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/592.a01c9285.chunk.js.map",
+    "262.61ec3683.chunk.js.map": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/262.61ec3683.chunk.js.map",
+    "529.50cb4b26.chunk.js.map": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/529.50cb4b26.chunk.js.map",
+    "602.5e22e6c4.chunk.js.map": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/602.5e22e6c4.chunk.js.map",
+    "787.87c61a80.chunk.js.map": "/https//pavankumarreddys.github.io./payperskillwebsite/static/js/787.87c61a80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c66f00a.css",
+    "static/js/main.bb050c0e.js"
+  ]
+}
